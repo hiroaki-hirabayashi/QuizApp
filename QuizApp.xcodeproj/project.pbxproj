@@ -17,6 +17,8 @@
 		F47C3FC2277FED9D00CDD87C /* QuizAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C3FC1277FED9D00CDD87C /* QuizAppTests.swift */; };
 		F47C3FCC277FED9D00CDD87C /* QuizAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C3FCB277FED9D00CDD87C /* QuizAppUITests.swift */; };
 		F47C3FCE277FED9D00CDD87C /* QuizAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C3FCD277FED9D00CDD87C /* QuizAppUITestsLaunchTests.swift */; };
+		F47C3FDC27800A0A00CDD87C /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C3FDB27800A0A00CDD87C /* Question.swift */; };
+		F47C3FDE27800A2900CDD87C /* QuizBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C3FDD27800A2900CDD87C /* QuizBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		F47C3FC7277FED9D00CDD87C /* QuizAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F47C3FCB277FED9D00CDD87C /* QuizAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAppUITests.swift; sourceTree = "<group>"; };
 		F47C3FCD277FED9D00CDD87C /* QuizAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F47C3FDB27800A0A00CDD87C /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		F47C3FDD27800A2900CDD87C /* QuizBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		F47C3FA6277FED9B00CDD87C /* QuizApp */ = {
 			isa = PBXGroup;
 			children = (
+				F47C3FDA278009EB00CDD87C /* Model */,
 				F47C3FA7277FED9B00CDD87C /* AppDelegate.swift */,
 				F47C3FA9277FED9B00CDD87C /* SceneDelegate.swift */,
 				F47C3FAB277FED9B00CDD87C /* ViewController.swift */,
@@ -128,6 +133,15 @@
 				F47C3FCD277FED9D00CDD87C /* QuizAppUITestsLaunchTests.swift */,
 			);
 			path = QuizAppUITests;
+			sourceTree = "<group>";
+		};
+		F47C3FDA278009EB00CDD87C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F47C3FDB27800A0A00CDD87C /* Question.swift */,
+				F47C3FDD27800A2900CDD87C /* QuizBrain.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,8 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F47C3FDC27800A0A00CDD87C /* Question.swift in Sources */,
 				F47C3FAC277FED9B00CDD87C /* ViewController.swift in Sources */,
 				F47C3FA8277FED9B00CDD87C /* AppDelegate.swift in Sources */,
+				F47C3FDE27800A2900CDD87C /* QuizBrain.swift in Sources */,
 				F47C3FB2277FED9B00CDD87C /* QuizApp.xcdatamodeld in Sources */,
 				F47C3FAA277FED9B00CDD87C /* SceneDelegate.swift in Sources */,
 			);
